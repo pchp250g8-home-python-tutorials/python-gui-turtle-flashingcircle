@@ -1,6 +1,26 @@
 FlashingCircle. Python Tutorials. GUI Tk Library. Actor Turtle. 2D Graphics Features. GUI Application. 
+The program does the following:
+  1. Creates a dialog box (form).
+  2. Loading the actor "Turtle".
+  3. Starts a cycle of processing messages (events) from the user and/or the operating system.
+  4. The commands of the actor "Turtle" are run.
+  5. The actor cursor is hidden and its animation is disabled.
+  6. The entire client area of ​​the dialog box is painted red.
+  7. A yellow circle with a radius of 100 pixels is drawn in the center (Turtle position 0, 0) of the dialog box's client area.
+  8. The loop with the parameter is executed.
+     8.1. The initial value of the parameter is assigned the value 0, and the final value is assigned the value 10.
+     8.2. A series of cycles is performed.
+          8.2.1. In the center of the yellow circle (the turtle's position is 0, 50) a green circle with a radius of
+                 50 Pixels.
+          8.2.2. The program pauses for 10 milliseconds.
+          8.2.3. A black circle with a radius of 50 pixels is drawn in the center of the yellow circle (turtle position 0, 50).
+    8.3. The initial value of the parameter is compared with the final value. If it is less, the loop continues. If not, it terminates.
+    8.4. The value of the loop parameter is incremented by the loop increment. In this case, it is 1.
+  9. At position 40,40 (from the center of the "Turtle" coordinates) the inscription "Animation done." is displayed.
+  10. The "turtle" lifts his pen. The performer's original appearance is restored.
+  11. When you click the "Close" button in the title bar of the dialog box (form), the actor "Turtle" is unloaded and the work is completed.
 
-FlashingCircle. Занятия по Pyhton. Библиотека Tk. Исполнитель Черепашка. Возможности 2D Графики. 
+FlashingCircle. Занятия по Pyhton. Библиотека Tk. Исполнитель "Черепашка". Возможности 2D Графики. 
 Приложение с графическим интерфейсом пользователя.
 Данная программа делает следующее:
 Программа делает следующее:
